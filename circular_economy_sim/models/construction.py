@@ -1,5 +1,6 @@
 class Construction:
-    def __init__(self, initial_waste, recycling_rate, targets):
+    def __init__(self, initial_waste, recycling_rate, targets, name="Construction"):
+        self.name = name
         self.initial_waste = initial_waste  # tonnes/year
         self.recycling_rate = recycling_rate
         self.targets = targets

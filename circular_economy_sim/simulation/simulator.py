@@ -1,4 +1,4 @@
-from models.sector import Sector
+from circular_economy_sim.models.sector import Sector
 
 class Simulator:
     def __init__(self, sectors, start_year=2024, end_year=2030):
